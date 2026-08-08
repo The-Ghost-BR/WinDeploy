@@ -4,6 +4,13 @@ App com interface gráfica para automatizar a configuração de um Windows recé
 
 ![Python](https://img.shields.io/badge/python-3.13-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+[![Download](https://img.shields.io/github/v/release/The-Ghost-BR/WinDeploy?label=Download&style=for-the-badge&color=7C6FF0)](https://github.com/The-Ghost-BR/WinDeploy/releases/latest)
+
+## 📥 Download
+
+**[⬇️ Baixar a versão mais recente do WinDeploy](https://github.com/The-Ghost-BR/WinDeploy/releases/latest)**
+
+Baixe o `WinDeploy.exe` na página de releases e execute — não precisa instalar Python nem nada além disso.
 
 ## ✨ Funcionalidades
 
@@ -43,14 +50,11 @@ O executável final fica em `dist\WinDeploy.exe`.
 
 ## 📁 Estrutura do projeto
 
+```
 WinDeploy/
-├── main.py # Ponto de entrada
-├── core/ # Lógica (instalação, otimização, sistema)
-├── dados/ # Catálogos de programas e bloatware
-├── interface/ # Telas (janela, abas, tooltip)
-└── assets/ # Ícone do app
-
-
-## ⚠️ Aviso sobre antivírus
-
-Por ser um executável não assinado digitalmente que solicita permissão de Administrador e realiza alterações no sistema (registro, remoção de apps), é possível que o Windows Defender/SmartScreen mostre um alerta na primeira execução. Isso é esperado — clique em "Mais informações → Executar assim mesmo".
+├── main.py                    # Ponto de entrada
+├── core/                      # Lógica (instalação, otimização, sistema)
+├── dados/                     # Catálogos de programas e bloatware
+├── interface/                 # Telas (janela, abas, tooltip)
+└── assets/                    # Ícone do app
+```
