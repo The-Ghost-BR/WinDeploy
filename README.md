@@ -58,3 +58,11 @@ WinDeploy/
 ├── interface/                 # Telas (janela, abas, tooltip)
 └── assets/                    # Ícone do app
 ```
+
+## ⚠️ Aviso sobre antivírus
+
+Por ser um executável não assinado digitalmente que solicita permissão de Administrador e realiza alterações no sistema (registro, remoção de apps), é possível que o Windows Defender/SmartScreen mostre um alerta na primeira execução. Isso é esperado — clique em "Mais informações → Executar assim mesmo".
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para mais detalhes.
